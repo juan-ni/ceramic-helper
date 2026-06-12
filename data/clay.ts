@@ -1,0 +1,38 @@
+export const clayProducts = [
+  {
+    id: "mug-small",
+    name: "작은 컵",
+    description: "에스프레소컵, 작은 찻잔",
+    clayGram: 350,
+    dryingDays: "2~4일",
+    bisqueTemp: 800,
+    glazeTemp: 1250,
+  },
+  {
+    id: "mug-medium",
+    name: "보통 머그컵",
+    description: "카페에서 쓰는 300ml 정도",
+    clayGram: 600,
+    dryingDays: "3~5일",
+    bisqueTemp: 800,
+    glazeTemp: 1250,
+  },
+  {
+    id: "plate-medium",
+    name: "중간 접시",
+    description: "지름 20cm 정도",
+    clayGram: 800,
+    dryingDays: "4~7일",
+    bisqueTemp: 800,
+    glazeTemp: 1250,
+  },
+  {
+    id: "bowl-medium",
+    name: "보통 그릇",
+    description: "밥공기, 작은 볼",
+    clayGram: 700,
+    dryingDays: "3~6일",
+    bisqueTemp: 800,
+    glazeTemp: 1250,
+  },
+];
