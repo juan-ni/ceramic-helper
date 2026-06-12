@@ -36,6 +36,16 @@ export default function Home() {
       석고와 물 양을 계산해요.
     </p>
   </Link>
+  <Link
+  href="/machine"
+  className="block rounded-3xl bg-white p-6 shadow-sm active:scale-[0.98]"
+>
+  <div className="text-3xl">⚙️</div>
+  <h2 className="mt-3 text-xl font-bold">기계용 계산</h2>
+  <p className="mt-1 text-stone-500">
+    GR, CH, M-30 석고 물 양을 계산해요.
+  </p>
+</Link>
 
   <Link
     href="/clay"
@@ -80,6 +90,7 @@ export default function Home() {
       재료비와 작업시간으로 가격을 계산해요.
     </p>
   </Link>
+
 </div>
       </div>
     </main>
